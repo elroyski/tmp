@@ -1,0 +1,26 @@
+// Fonts
+@import url('https://fonts.bunny.net/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+.data-available {
+    background-color: #28a745 !important; // Jaśniejszy odcień zieleni
+    color: white !important;
+    vertical-align: middle;
+    display: table-cell;
+    text-align: center;
+    padding: 0.5rem; /* Dostosuj według potrzeb */
+}
+
+.data-unavailable {
+    background-color: #dc3545 !important; // Jaśniejszy odcień czerwieni
+    color: white !important;
+    vertical-align: middle;
+    display: table-cell;
+    text-align: center;
+    padding: 0.5rem; /* Dostosuj według potrzeb */
+}
